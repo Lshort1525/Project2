@@ -1,0 +1,108 @@
+.shadows-into light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  body {
+    font-family: "Shadows Into Light", cursive; 
+    font-size: 40px;
+    background: rgb(177, 228, 233);
+    margin: 10%;
+    padding: 15%;
+    padding-top: 20%;
+    
+  }
+
+  a {
+    text-decoration: none;
+    color:black
+  }
+
+  .Up {
+    cursor: auto;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    animation-name: up;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes up { 
+  from {
+  top:0px;
+  }
+  to {
+  top: 400px;
+}
+}
+
+.those {
+  cursor: auto;
+  position: absolute;
+  top:0px;
+  left:200px;
+  animation-name: Those;
+  animation-duration: 3s;
+  animation-delay: .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes Those {
+  from{
+    top:0px;
+  }
+  to{
+    top:300px;
+  }
+
+}
+
+.stairs {
+  cursor: auto;
+  position: absolute;
+  top:0px;
+  left:300px;
+  animation-name: Stairs;
+  animation-duration: 3s;
+  animation-delay: .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes Stairs {
+  from {
+    top:0px;
+  }
+  to {
+    top:200px
+  }
+}
+
+.in {
+ transition-duration: 0s;
+ transform:translate(200px,-10px);
+ -moz-transform:translate(200px,-10px);
+ -ms-transform:translate(200px,-10px);
+ -o-transform:translate(200px,-10px);
+ -webkit-transform:translate(200px,-10px);
+}
+
+.that { transition-duration: 0s; transform:translate(400px, -110px) ; -webkit-transform:translate(400px, -110px) ; -moz-transform:translate(400px, -110px) ; -ms-transform:translate(400px, -110px) ; -o-transform:translate(400px, -110px) ;
+}
+
+.little {
+
+}
+
+.back {
+
+}
+
+.bedroom {
+
+}
