@@ -1,4 +1,4 @@
-.shadows-into light-regular {
+  .shadows-into light-regular {
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
     font-style: normal;
@@ -8,10 +8,10 @@
   body {
     font-family: "Shadows Into Light", cursive; 
     font-size: 40px;
-    background: rgb(177, 228, 233);
-    margin: 10%;
-    padding: 15%;
-    padding-top: 20%;
+    background: rgb(189, 237, 224);
+    margin: 150px;
+    padding: 10px;
+    padding-top: 200px;
     
   }
 
@@ -24,85 +24,227 @@
     cursor: auto;
     position: absolute;
     top: 0px;
-    left: 100px;
+    left: 120px;
     animation-name: up;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-}
-
-@keyframes up { 
-  from {
-  top:0px;
   }
-  to {
-  top: 400px;
-}
-}
 
-.those {
-  cursor: auto;
-  position: absolute;
-  top:0px;
-  left:200px;
-  animation-name: Those;
-  animation-duration: 3s;
-  animation-delay: .5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
+  .those {
+    cursor: auto;
+   position: absolute;
+   top:0px;
+   left:190px;
+    animation-name: Those;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
 
-@keyframes Those {
-  from{
+  .stairs {
+    cursor: auto;
+    position: absolute;
     top:0px;
+    left:300px;
+    animation-name: Stairs;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
-  to{
+
+  .in {
+    transition-duration: 0s;
+    transform:translate(250px,-150px);
+    -moz-transform:translate(250px,-150px);
+    -ms-transform:translate(250px,-150px);
+    -o-transform:translate(250px,-150px);
+    -webkit-transform:translate(250px,-150px);
+  }
+ 
+ .that {
+   transition-duration: 0s;
+   transform:translate(300px, -255px) ;
+   -webkit-transform:translate(300px, -255px) ;
+   -moz-transform:translate(300px, -255px) ;
+   -ms-transform:translate(300px, -255px) ;
+   -o-transform:translate(300px, -255px) ;
+  }
+ 
+ .little {
+   transition-duration: 0s;
+   transform: translate(375px,-360px);
+   -webkit-transform: translate(375px,-360px);
+   -moz-transform: translate(375px,-360px);
+   -ms-transform: translate(375px,-360px);
+   -o-transform: translate(375px,-360px);
+  }
+
+  .back {
+    animation-name: Back;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    transform: translate(450px,-465px);
+      -webkit-transform: translate(450px,-465px);
+      -moz-transform: translate(450px,-465px);
+      -ms-transform: translate(450px,-465px);
+      -o-transform: translate(450px,-465px);
+   
+  }
+
+  .bedroom {
+    cursor:pointer;
+    transform: translate(540px,-570px);
+    -webkit-transform: translate(540px,-570px);
+    -moz-transform: translate(540px,-570px);
+    -ms-transform: translate(540px,-570px);
+    -o-transform: translate(540px,-570px);
+  }
+
+  @keyframes up { 
+   from {
+   top:0px;
+   }
+   to {
+   top: 400px;
+    }
+  }
+
+  @keyframes Those {
+    from{
+    top:0px;
+    }
+    to{
     top:300px;
+    }
   }
 
-}
-
-.stairs {
-  cursor: auto;
-  position: absolute;
-  top:0px;
-  left:300px;
-  animation-name: Stairs;
-  animation-duration: 3s;
-  animation-delay: .5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes Stairs {
-  from {
+  @keyframes Stairs {
+    from {
     top:0px;
-  }
-  to {
+   }
+    to {
     top:200px
+    }
   }
-}
 
-.in {
- transition-duration: 0s;
- transform:translate(200px,-10px);
- -moz-transform:translate(200px,-10px);
- -ms-transform:translate(200px,-10px);
- -o-transform:translate(200px,-10px);
- -webkit-transform:translate(200px,-10px);
-}
+  @keyframes Back {
+    from {
+    }
+    to{
+      opacity: 5%;
+    }
+ } 
 
-.that { transition-duration: 0s; transform:translate(400px, -110px) ; -webkit-transform:translate(400px, -110px) ; -moz-transform:translate(400px, -110px) ; -ms-transform:translate(400px, -110px) ; -o-transform:translate(400px, -110px) ;
-}
-
-.little {
-
-}
-
-.back {
-
-}
-
-.bedroom {
+ .P {
+  animation: P 1s linear 1;
+  -webkit-animation: P 1s linear 1;
+  position:absolute;
+  animation-fill-mode: forwards;
+  transform: translate(700px,-610px);
+  -webkit-transform: translate(690px,-617px);
+  -moz-transform: translate(700px,-610px);
+  -ms-transform: translate(700px,-610px);
+  -o-transform: translate(700px,-610px);
+  animation-delay: 2s;
 
 }
+
+ .L {
+  animation: L 1s linear 1;
+  -webkit-animation: L 1s linear 1;
+  position:absolute;
+  animation-fill-mode: forwards;
+  transform: translate(700px,-610px);
+  -webkit-transform: translate(710px,-617px);
+  -moz-transform: translate(700px,-610px);
+  -ms-transform: translate(700px,-610px);
+  -o-transform: translate(700px,-610px);
+  animation-delay: 2.5s;
+}
+
+ .A {
+  animation: A 1s linear 1;
+  -webkit-animation: A 1s linear 1;
+  position:absolute;
+  animation-fill-mode: forwards;
+  transform: translate(720px,-620px);
+  -webkit-transform: translate(720px,-620px);
+  -moz-transform: translate(720px,-620px);
+  -ms-transform: translate(720px,-620px);
+  -o-transform: translate(720px,-620px);
+  animation-delay: 3s;
+}
+
+ .Y {
+  animation: Y 1s linear 1;
+  -webkit-animation: Y 1s linear 1;
+  position:absolute;
+  animation-fill-mode: forwards;
+  transform: translate(735px,-620px);
+  -webkit-transform: translate(735px,-620px);
+  -moz-transform: translate(735px,-620px);
+  -ms-transform: translate(735px,-620px);
+  -o-transform: translate(735px,-620px);
+  animation-delay: 3.5s;
+}
+
+  .guitar {
+    animation: guitar 1s ease-in-out infinite alternate;
+    transform: translate(770px,-100px);
+    -webkit-transform: translate(770px,-100px);
+    -moz-transform: translate(770px,-100px);
+    -ms-transform: translate(770px,-100px);
+    -o-transform: translate(770px,-100px);
+    -webkit-animation: guitar 1s ease-in-out infinite alternate;
+}
+
+  @keyframes P {
+    0%,100% {
+      bottom:0;
+    }
+    50% {
+      bottom:30px;
+    }
+  }
+
+  @keyframes L {
+    0%,100% {
+      bottom:0;
+    }
+    50% {
+      bottom:30px;
+    }
+  }
+
+  @keyframes A {
+    0%,100% {
+      bottom:0;
+    }
+    50% {
+      bottom:30px;
+    }
+  }
+
+  @keyframes Y {
+    0%,100% {
+      bottom:0;
+    }
+    50% {
+      bottom:30px;
+    }
+  }
+
+  @keyframes guitar {
+    from {
+      text-shadow: rgb(90, 66, 187) 1px 0 10px;
+    }
+    to {
+      text-shadow: rgb(143, 63, 213) 1px 0 5px;
+    }
+    
+  }
+  
