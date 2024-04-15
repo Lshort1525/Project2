@@ -356,8 +356,8 @@
 }
 
 .p2 {
- animation:p2 5s linear 1;
- -webkit-animation:p2 5s linear 1;
+ animation:p2 7s linear 1;
+ -webkit-animation:p2 7s linear 1;
  transform: translate(455px,1128px) rotate(10deg);
  -webkit-transform: translate(455px,1128px) rotate(10deg);
  -moz-transform: translate(455px,1128px) rotate(10deg);
@@ -370,65 +370,65 @@
 }
 
 .O {
-  animation: p2 5s linear 1;
+  animation: p2 7s linear 1;
   transform: translate(51px,693px) rotate(10deg);
   -webkit-transform: translate(51px,693px) rotate(10deg);
   -moz-transform: translate(51px,693px) rotate(10deg);
   -ms-transform: translate(51px,693px) rotate(10deg);
   -o-transform: translate(51px,693px) rotate(10deg);
-  -webkit-animation: p2 5s linear 1;
+  -webkit-animation: p2 7s linear 1;
   offset-path: path("M 0.26461331,0.86788948 C 6.8494653,-0.31355669 14.298889,0.15775021 19.710189,4.7718775 c 2.912183,2.2886738 4.028736,6.0862175 5.393682,9.4828805 1.29099,3.656259 2.814413,7.214019 4.694556,10.569304 3.292199,6.477487 6.518862,12.993213 9.882892,19.428857");
   animation-delay: 3.8s;
   animation-fill-mode: forwards;
 }
 
 .U {
-  animation:p2 5s linear 1;
+  animation:p2 7s linear 1;
   transform: translate(85px,461px) rotate(10deg);
   -webkit-transform: translate(85px,461px) rotate(10deg);
   -moz-transform: translate(85px,461px) rotate(10deg);
   -ms-transform: translate(85px,461px) rotate(10deg);
   -o-transform: translate(85px,461px) rotate(10deg);
-  -webkit-animation:p2 5s linear 1;
+  -webkit-animation:p2 7s linear 1;
   offset-path: path("M 0.26461331,0.86788948 C 6.8494653,-0.31355669 14.298889,0.15775021 19.710189,4.7718775 c 2.912183,2.2886738 4.028736,6.0862175 5.393682,9.4828805 1.29099,3.656259 2.814413,7.214019 4.694556,10.569304 3.292199,6.477487 6.518862,12.993213 9.882892,19.428857");
   animation-delay: 3.6s;
   animation-fill-mode: forwards;
 }
 
 .R {
-  animation:p2 5s linear 1;
+  animation:p2 7s linear 1;
   transform: translate(127px,237px) rotate(10deg);
   -webkit-transform: translate(127px,237px) rotate(10deg);
   -moz-transform: translate(127px,237px) rotate(10deg);
   -ms-transform: translate(127px,237px) rotate(10deg);
   -o-transform: translate(127px,237px) rotate(10deg);
-  -webkit-animation:p2 5s linear 1;
+  -webkit-animation:p2 7s linear 1;
   offset-path: path("M 0.26461331,0.86788948 C 6.8494653,-0.31355669 14.298889,0.15775021 19.710189,4.7718775 c 2.912183,2.2886738 4.028736,6.0862175 5.393682,9.4828805 1.29099,3.656259 2.814413,7.214019 4.694556,10.569304 3.292199,6.477487 6.518862,12.993213 9.882892,19.428857");
   animation-delay: 3.4s;
   animation-fill-mode: forwards;
 }
 
 .E {
-  animation:p2 5s linear 1;
+  animation:p2 7s linear 1;
   transform: translate(165px,07px) rotate(10deg);
   -webkit-transform: translate(165px,07px) rotate(10deg);
   -moz-transform: translate(165px,07px) rotate(10deg);
   -ms-transform: translate(165px,07px) rotate(10deg);
   -o-transform: translate(165px,07px) rotate(10deg);
-  -webkit-animation:p2 5s linear 1;
+  -webkit-animation:p2 7s linear 1;
   offset-path: path("M 0.26461331,0.86788948 C 6.8494653,-0.31355669 14.298889,0.15775021 19.710189,4.7718775 c 2.912183,2.2886738 4.028736,6.0862175 5.393682,9.4828805 1.29099,3.656259 2.814413,7.214019 4.694556,10.569304 3.292199,6.477487 6.518862,12.993213 9.882892,19.428857");
   animation-delay: 3.2s;
   animation-fill-mode: forwards;
 }
 
 .D {
-  animation:p2 5s linear 1;
+  animation:p2 7s linear 1;
   transform: translate(212px,-219px) rotate(10deg);
   -webkit-transform: translate(212px,-219px) rotate(10deg);
   -moz-transform: translate(212px,-219px) rotate(10deg);
   -ms-transform: translate(212px,-219px) rotate(10deg);
   -o-transform: translate(212px,-219px) rotate(10deg);
-  -webkit-animation:p2 5s linear 1;
+  -webkit-animation:p2 7s linear 1;
   offset-path: path("M 0.26461331,0.86788948 C 6.8494653,-0.31355669 14.298889,0.15775021 19.710189,4.7718775 c 2.912183,2.2886738 4.028736,6.0862175 5.393682,9.4828805 1.29099,3.656259 2.814413,7.214019 4.694556,10.569304 3.292199,6.477487 6.518862,12.993213 9.882892,19.428857");
   animation-fill-mode: forwards;
   animation-delay: 3s;
@@ -446,11 +446,11 @@
 @keyframes p2 {
   to {
     offset-distance: 100%;
-    transform: translate(8000px,1000px);
-    -webkit-transform: translate(8000px,1000px);
-    -moz-transform: translate(8000px,1000px);
-    -ms-transform: translate(8000px,1000px);
-    -o-transform: translate(8000px,1000px);
+    transform: translate(8000px,8000px);
+    -webkit-transform: translate(8000px,8000px);
+    -moz-transform: translate(8000px,8000px);
+    -ms-transform: translate(8000px,8000px);
+    -o-transform: translate(8000px,8000px);
 }
 }
 
